@@ -1,11 +1,11 @@
 const prompt = require("prompt-sync")({sigint: true});
 
 let hm = Number(prompt("Harga Makan : "))
-let pajak = 0.10 
-let fee = 0.05
-let bayar = hm + 0.10 + 0.05
+let pajak = 10/100 
+let fee = 5/100
+let bayar = hm + pajak + fee
 
 console.log(`
-Pajak = ${ hm * 0.10}
-Fee = ${ hm * 0.05}
-Harga Bayar = ${hm + (hm * 0.10) + (hm * 0.05)}`)
+Pajak = ${pajak}
+Fee = ${fee}
+Harga Bayar = ${bayar}`)

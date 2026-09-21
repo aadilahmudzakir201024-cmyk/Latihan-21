@@ -6,7 +6,5 @@ const konsonan = "B C D F G H J K L M N P Q R S T V W X Y Z"
 
 if ( huruf == "A" || huruf == "I" || huruf == "E" || huruf == "O")
     console.log("Termasuk huruf vokal")
-if (huruf >= "A" && huruf <= "Z")
-    console.log("Termasuk huruf konsonan")
 else 
-    console.log("Bukan termasuk huruf")
+    console.log("Termasuk huruf konsonan atau Bukan termasuk huruf")

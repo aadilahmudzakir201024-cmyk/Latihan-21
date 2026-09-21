@@ -1,11 +1,11 @@
 const prompt = require ("prompt-sync")({sigint :true});
 
-let a = Number(prompt("Panjang : ")); 
-let b = Number(prompt("Lebar   : "));
-let luas = a * b 
-let keliling = 2 * ( a + b) 
+let p = Number(prompt("Panjang : ")); 
+let l = Number(prompt("Lebar   : "));
+let luas = p * l 
+let keliling = 2 * ( p + l) 
 
 console.log(`
-Luas = ${a * b} cm
-Keliling = ${2 * (a + b)} cm
+Luas = ${luas} cm
+Keliling = ${keliling} cm
 `)
